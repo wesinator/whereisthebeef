@@ -23,7 +23,7 @@ function checkBeef() {
 
 function displayWarning(string) {
   var beefMessage = `Warning: BeEF hook script identified in scripts on page: "${string}"`;
-  console.log(beefMessage);
+  console.warn(beefMessage);
   alert(beefMessage);
 }
 
